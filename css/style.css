@@ -7,6 +7,10 @@ body {
     /* justify-content: center; */
     padding-left: 2%;
 }
+ul {
+    list-style-type: none;
+    padding: 0;
+}
 h1 {
     font-size: 2em;
 }
