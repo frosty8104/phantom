@@ -1,11 +1,10 @@
 body {
-    /* align-items: center; */
+    align-items: center;
     background: #ebebeb;
-    /* display: flex;
-    flex-flow: row wrap; */
+    display: flex;
+    flex-flow: row wrap;
     font-size: 16px;
-    /* justify-content: center; */
-    padding-left: 2%;
+    justify-content: center;
 }
 ul {
     list-style-type: none;
@@ -41,4 +40,8 @@ table, th, td {
 table p {
     padding: 0 0.2%;
     text-align: center;
+}
+div {
+    justify-content: space-between;
+    width: 45%;
 }
