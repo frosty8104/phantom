@@ -10,6 +10,9 @@ ul {
     list-style-type: none;
     padding: 0;
 }
+a {
+    text-decoration: none;
+}
 h1 {
     font-size: 2em;
 }
@@ -45,3 +48,24 @@ div {
     justify-content: space-between;
     width: 45%;
 }
+/***** RECIPES *****/
+#recipes {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+}
+/***** RECIPES *****/
+/* .ingredients {
+    align-items: center;
+}
+.ingredients ul {
+    flex-flow: row wrap;
+    padding: 0;
+}
+.ingredients ul li {
+    justify-content: space-between;
+    width: 50%;
+} */
+ /***** RECIPES *****/
