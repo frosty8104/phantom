@@ -42,5 +42,6 @@ table p {
     text-align: center;
 }
 div {
+    justify-content: space-between;
     width: 45%;
 }
