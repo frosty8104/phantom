@@ -26,7 +26,6 @@ h3 {
 }
 h4 {
     font-size: 1em;
-    text-align: center;
 }
 ul {
     padding: 0;
@@ -70,6 +69,9 @@ table p {
     padding: 0 0.5%;
     text-align: center;
 }
+.rogue h4 {
+    text-align: center;
+}
 #fleet {
     align-items: center;
     display: flex;
@@ -96,16 +98,20 @@ main {
     justify-content: center;
     width: 90%;
 }
-/***** RECIPES *****/
-/* .ingredients {
-    align-items: center;
+@media (min-width: 768px) {
+    /***** RECIPES *****/
 }
-.ingredients ul {
-    flex-flow: row wrap;
-    padding: 0;
+@media (min-width: 1200px) {
+    /***** RECIPES *****/
+    .ingredients {
+        align-items: center;
+    }
+    .ingredients ul {
+        flex-flow: row wrap;
+        padding: 0;
+    }
+    .ingredients ul li {
+        justify-content: space-between;
+        width: 45%;
+    }
 }
-.ingredients ul li {
-    justify-content: space-between;
-    width: 50%;
-} */
- /***** RECIPES *****/
